@@ -1,6 +1,6 @@
 function isCollide(el1, el2) {
-  var rect1 = el1.getBoundingClientRect();
-  var rect2 = el2.getBoundingClientRect();
+  const rect1 = el1.getBoundingClientRect();
+  const rect2 = el2.getBoundingClientRect();
 
   return !(
     rect1.top > rect2.bottom ||
