@@ -1,24 +1,11 @@
-# hello-world
+# Teeter-totter
+Test work. Requirements are know to customer.
 
 ## Project setup
 ```
-yarn install
+npm i && npm run serve
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Hosting
+Hosted via firebase: [Here](https://teeter-totter-b7a05.web.app/ "Here")
