@@ -28,6 +28,10 @@
       <div>App is working in some imaginary math and physics rules that are configurable</div>
       <div>Canvas and RxJs feature is ignored. App is fully working on state managment with Vue+Vuex</div>
     </div>
+
+    <div class="flex flex-col items-center m-2 mt-10 mb-10 text-center">
+      <a href="https://github.com/krivoops/teeter-totter" target="_blank">GitHub</a>
+    </div>
   </div>
 </template>
 

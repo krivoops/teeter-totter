@@ -47,3 +47,16 @@
 button {
     background: #eee;
 }
+
+a {
+    color: white;
+    padding: 5px 10px;
+    background: black;
+    border-radius: 1.5rem;
+    transition: box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease;
+}
+
+a:hover {
+    box-shadow: 0 1rem 2.5rem rgba(35,35,35,.1),0 .5rem 1rem -.75rem rgba(35,35,35,.1)!important;
+    transform: translate3d(0,-3px,0);
+}
