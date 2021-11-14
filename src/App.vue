@@ -138,17 +138,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-  .list-enter-from {
-    opacity: 0;
-    transform: scale(.6)
-  }
-  .list-enter-to {
-    opacity: 1;
-    transform: scale(1)
-  }
-  .list-enter-active {
-    transition: all .4s ease;
-  }
-</style>
