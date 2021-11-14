@@ -1,0 +1,49 @@
+@import "./teeter-totter.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.h-25 {
+    height: 25vh;
+}
+
+.button {
+    text-transform: uppercase!important;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    @apply p-4 pt-2 pb-2 mr-1 ml-1;
+    transition: box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease;
+}
+
+.button[disabled] {
+    opacity: .25;
+    cursor: not-allowed;
+}
+
+.button:hover:not([disabled]) {
+    box-shadow: 0 1rem 2.5rem rgba(35,35,35,.1),0 .5rem 1rem -.75rem rgba(35,35,35,.1)!important;
+    transform: translate3d(0,-3px,0);
+}
+
+.s-button {
+    background: rgb(20, 241, 149);
+}
+
+.s-button:hover {
+    background: white;
+}
+
+.list li {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+button {
+    background: #eee;
+}
