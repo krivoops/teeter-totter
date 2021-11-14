@@ -30,9 +30,6 @@
     },
     mounted() {
       this.step = this.$refs.item.parentNode.offsetWidth / (this.hitboxesCount * 2)
-
-      // 'background-color': itemValue.color,
-      //   'width': `${stable? this.step * itemValue.weight  : this.step * (itemValue.weight / 10) - 5}px`,
     },
     computed: {
       sideOffset() {
